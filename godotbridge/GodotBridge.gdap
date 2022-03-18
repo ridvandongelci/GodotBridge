@@ -1,0 +1,9 @@
+[config]
+
+name="GodotBridge"
+binary_type="local"
+binary="godotbridge-release.aar"
+
+[dependencies]
+
+remote=["org.greenrobot:eventbus:3.2.0"]

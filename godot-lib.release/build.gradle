@@ -1,0 +1,4 @@
+configurations.maybeCreate("default")
+fileTree(dir: '.', includes: ['*.aar']).forEach(aarFile ->
+        artifacts.add("default", aarFile)
+)
